@@ -1,6 +1,6 @@
 <idea-plugin>
     <id>us.spaceclouds42.mcui</id>
-    <name>MCUI Language Interpreter</name>
+    <name>MCUI</name>
     <version>0.1.0</version>
     <vendor email="spaceclouds42@gmail.com" url="http://mcgui.cf">MCGui</vendor>
 
@@ -14,7 +14,7 @@
     </change-notes>
 
     <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
-    <idea-version since-build="IC-203"/>
+    <idea-version since-build="IC-203.7148.57"/>
 
     <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
          on how to target different products -->
