@@ -1,0 +1,34 @@
+<idea-plugin>
+    <id>us.spaceclouds42.mcui</id>
+    <name>MCUI Language Interpreter</name>
+    <version>0.1.0</version>
+    <vendor email="spaceclouds42@gmail.com" url="http://mcgui.cf">MCGui</vendor>
+
+    <description><![CDATA[
+      Plugin to interpret mcgui's markup language
+    ]]></description>
+
+    <change-notes><![CDATA[
+
+    ]]>
+    </change-notes>
+
+    <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+    <idea-version since-build="IC-203"/>
+
+    <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+         on how to target different products -->
+    <!-- uncomment to enable plugin in all products
+    <depends>com.intellij.modules.lang</depends>
+    -->
+
+    <extensions defaultExtensionNs="com.intellij">
+        <fileType name="MCGui File" implementationClass="us.spaceclouds42.mcui.MCUIFileType"
+                  fieldName="INSTANCE" language="MCUI" extensions="mcui"/>
+    </extensions>
+
+    <actions>
+        <!-- Add your actions here -->
+    </actions>
+
+</idea-plugin>

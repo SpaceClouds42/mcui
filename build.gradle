@@ -1,0 +1,20 @@
+plugins {
+    id "java"
+    id "org.jetbrains.intellij" version "0.7.1"
+}
+
+group "us.spaceclouds42"
+version "0.1.0"
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation "org.junit.jupiter:junit-jupiter-api:5.6.0"
+    testRuntimeOnly "org.junit.jupiter:junit-jupiter-engine"
+}
+
+test {
+    useJUnitPlatform()
+}
